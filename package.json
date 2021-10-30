@@ -1,0 +1,12 @@
+{
+  "name": "sellstorefsback",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pipesierrae/sellstorefsback.git",
+  "author": "Felipe Sierra <felipesierrae@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
