@@ -8,6 +8,7 @@ import dotenv from 'dotenv';
 import { conectarBD } from './db/db.js';
 import jwt from 'express-jwt';
 import jwks from 'jwks-rsa';
+
 import rutasVehiculo from './views/vehiculos/rutas.js';
 import rutasUsuario from './views/usuarios/rutas.js';
 import rutasVenta from './views/ventas/rutas.js';
@@ -31,6 +32,7 @@ issuer: 'https://sellstoresfs.us.auth0.com/',
 algorithms: ['RS256']
 });
 
+// 4 y 5: enviarle el token a auth0 para que devuelva si es valido o no
 app.use(jwtCheck);
 
 app.use(rutasVehiculo);
