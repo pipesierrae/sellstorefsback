@@ -4,3 +4,6 @@ server.js
 jwksUri: 'https://sellstoresfs.us.auth0.com/.well-known/jwks.json'
 audience: 'api-auth-sellstorefs',
 issuer: 'https://sellstoresfs.us.auth0.com/',
+
+.env
+Puerto y Url DB
